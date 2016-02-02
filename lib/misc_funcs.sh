@@ -88,6 +88,6 @@ function clean_cache() {
 
 function exec_commands() {
   for cmd in ${build_command[@]}; do
-    $cmd
+    "${cmd}"
   done
 }
